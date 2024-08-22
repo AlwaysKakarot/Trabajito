@@ -1,0 +1,77 @@
+body {
+  background-image: url(images/pattern.png);
+  background-color: beige;
+  size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  background-color: #c8b1d3;
+  padding: 10px;
+  text-align: center;
+}
+.logo {
+  width: 40px;
+  margin-right: 10px;
+  position: block;
+  display: block;
+}
+.title {
+  size: 24px;
+  color: #6f4e8b;
+}
+.container {
+  display: flex;
+  margin: 20px;
+}
+.sidebar {
+  width: 30%;
+  height: 10%;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0.1);
+}
+.logo-container {
+  margin-bottom: 20px; /* Añade espacio debajo de la imagen */
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.bethany-img {
+  width: 120%;
+  max-width: 500%;
+  display: block;
+}
+.content {
+  width: 75%;
+  padding: 20px;
+}
+.shop-image {
+  width: 50%;
+  height: 400px;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 5px;
+}
+.promo-image {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px 0;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-top: 1px solid#ccc;
+  margin-top: 20px;
+}
